@@ -2,6 +2,10 @@ package com.company;
 
 public class Main {
     static final int adjacentSize = 13;
+    //don't have to use array
+    //could skip 13 places after encountering a 0
+    //could compare the first digit of old number to last digit of new number to skip a multiplication calculation (halving the number of calculations)
+
 
     public static void main(String[] args) {
 
